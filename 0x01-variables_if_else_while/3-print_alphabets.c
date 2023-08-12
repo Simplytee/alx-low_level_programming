@@ -6,15 +6,24 @@
 
 int main(void)
 {
-char c;
 
-c = 'a';
-while
-(c <= 'z') {
-putchar(c)
-c++;
+	char b;
 
-}
-putchar('\n');
-return (0);
+	char c;
+
+	b = 'a';
+	c = 'A';
+        while
+	      
+	        (b <= 'z') {
+		        putchar(b);
+			b++;
+		}
+	while
+		(c <= 'z') {
+			putchar(c);
+			c++;
+		}
+	putchar('\n');
+	return (0);
 }

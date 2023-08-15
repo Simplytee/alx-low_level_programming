@@ -1,21 +1,23 @@
 #include "main.h"
 
 /**
- * print_alphabet_x10 - Alphabet to appear x10
+ * print_alphabet_x10 - Alphabet to print x10 in lowercase
  * Return: void
  */
 
 void print_alphabet_x10(void)
 {
-char letter;
+char ch;
 int i;
 i = 0;
 while (i < 10)
 {
-for (letter = 'a'; letter <= 'z'; letter++)
+for (ch = 'a'; ch <= 'z'; ch++)
 {
-_putchar(letter);
+_putchar(ch);
 }
 _putchar('\n');
 i++;
+}
+
 }

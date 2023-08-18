@@ -1,11 +1,12 @@
-#include "main.h"
+#include "main.h" "
 /**
  * print_most_numbers - function that prints numbers from 0 to 9
  * Return: Always 0
  */
 void print_most_numbers(void)
 {
-char  c;
+
+char c;
 
 for (c = 48; c < 58; c++)
 {
